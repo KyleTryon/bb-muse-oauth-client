@@ -1,0 +1,16 @@
+{
+  "client_id": "https://kyletryon.github.io/bb-muse-oauth-client/client.json",
+  "client_name": "Muse.ai BB connector",
+  "redirect_uris": [
+    "https://agent.meta.ai/api/hatch/oauth/callback"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "scope": "bb"
+}
